@@ -1,12 +1,16 @@
-#cities ul li{
+#showList ul li{
   display: none;
 }
 
-#cities:hover ul li{
+#showList:hover ul li{
   display: block;
 }
 
-#cities a.active ul li{
+li {
+  margin-top: 8px;
+}
+
+#showList a.active ul li{
   display: block;
 }
 
@@ -30,3 +34,4 @@
 .nav a:hover{
   text-decoration: underline;
 }
+
