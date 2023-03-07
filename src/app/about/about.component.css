@@ -24,12 +24,19 @@
   
   .image-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 2rem;
   }
   
   .image-container img {
     max-width: 100%;
     height: auto;
+    object-fit: cover;
   }
   
+  
+  main {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('src/assets/ethincPattern.jpg');
+    background-size: cover;
+  }
