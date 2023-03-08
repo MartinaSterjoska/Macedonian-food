@@ -1,4 +1,4 @@
-<mat-list>
+<!-- <mat-list>
     <mat-list-item *ngFor="let city of cities" (click)="onCityClick(city)">
       <mat-card>
         <img mat-card-image [src]="city.imageUrl" alt="{{city.name}}">
@@ -8,7 +8,7 @@
         </mat-card-content>
       </mat-card>
     </mat-list-item>
-  </mat-list>
+  </mat-list> -->
   
   <mat-card *ngIf="selectedCity">
     <img mat-card-image [src]="selectedCity.imageUrl" alt="{{selectedCity.name}}">

@@ -156,7 +156,7 @@ export const RESTORANTS: IRestorant[] = [
     }
 ]
 
-interface IRestorant {
+export interface IRestorant {
     name: string;
     city:string;
     webSiteUrl:string;
