@@ -1,11 +1,27 @@
-import { Component } from '@angular/core';
-import { CITIES } from '../../Data/cities' 
+import { Component, OnInit, Output } from '@angular/core';
+import { CITIES, City } from '../../Data/cities' 
+import { RESTORANTS, IRestorant } from '../../Data/restorants' 
 
 @Component({
   selector: 'app-nav-bar',
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.css']
 })
-export class NavBarComponent {
+
+export class NavBarComponent implements OnInit{
+
   cities = CITIES;
+  restaurants = RESTORANTS;
+
+
+  constructor(){}
+
+  ngOnInit(): void {
+  
+  }
+  
+
+  onCityClick(city: City) : void{
+    this.cities = this.cities.filter(c => c.name == city.name);
+  }
 }

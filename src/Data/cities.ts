@@ -1,4 +1,4 @@
-export const CITIES: ICity[]=
+export const CITIES: City[]=
 [   {
         "name":"Skopje",
         "description":"Skopje is the capital and largest city of North Macedonia. It is the country's political, cultural, economic, and academic centre.",
@@ -56,8 +56,17 @@ export const CITIES: ICity[]=
         "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Ambientalna_ulica_Marsal_Tito-Bitola_%2810%29.jpg/405px-Ambientalna_ulica_Marsal_Tito-Bitola_%2810%29.jpg"
     }
 ]
-export interface ICity{
+export class City{
+
     name: string;
     description:string;
     imageUrl: string;
+
+    constructor(name:string="", description:string="", imageUrl:string=""){
+        this.name=name;
+        this.description=description;
+        this.imageUrl = imageUrl;
+    }
+
+   
 }

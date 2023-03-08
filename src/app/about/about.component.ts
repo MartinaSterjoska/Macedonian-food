@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CITIES, ICity } from 'src/Data/cities';
+import { CITIES, City } from 'src/Data/cities';
 
 
 
@@ -10,12 +10,9 @@ import { CITIES, ICity } from 'src/Data/cities';
 })
 export class AboutComponent {
   // Component logic goes here
-  cities: ICity[] = CITIES;
-  selectedCity: ICity | undefined;
+  cities: City[] = CITIES;
+  selectedCity: City | undefined;
 
-  onCityClick(city: ICity) {
-    this.selectedCity = city;
-  }
 }
 
 
