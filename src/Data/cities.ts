@@ -56,7 +56,7 @@ export const CITIES: ICity[]=
         "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Ambientalna_ulica_Marsal_Tito-Bitola_%2810%29.jpg/405px-Ambientalna_ulica_Marsal_Tito-Bitola_%2810%29.jpg"
     }
 ]
-interface ICity{
+export interface ICity{
     name: string;
     description:string;
     imageUrl: string;

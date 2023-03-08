@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CITIES } from './../../Data/cities' 
+import { CITIES } from '../../Data/cities' 
 
 @Component({
   selector: 'app-nav-bar',
