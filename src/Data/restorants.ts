@@ -1,4 +1,4 @@
-export const RESTORANTS: IRestorant[] = [
+export const RESTORANTS: Restorant[] = [
     {
         name: "Restoran Cun",  
         city:"Ohrid",
@@ -156,11 +156,18 @@ export const RESTORANTS: IRestorant[] = [
     }
 ]
 
-export interface IRestorant {
+export class Restorant {
     name: string;
     city:string;
     webSiteUrl:string;
     imageUrl:string;
     address:string;
-
+    constructor( name: string="",city:string="",webSiteUrl:string="",imageUrl:string="",address:string=""){
+        this.name=name;
+        this.city=city;
+        this.webSiteUrl=webSiteUrl;
+        this.imageUrl=imageUrl;
+        this.address=address;
+    }
+    
 }

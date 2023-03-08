@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { from } from 'rxjs';
 
-import {RESTORANTS, IRestorant} from 'src/Data/restorants'
+import {RESTORANTS, Restorant} from 'src/Data/restorants'
 
 @Component({
   selector: 'app-restaurants-component',
@@ -9,7 +9,7 @@ import {RESTORANTS, IRestorant} from 'src/Data/restorants'
   styleUrls: ['./restaurants-component.component.css']
 })
 export class RestaurantsComponentComponent {
-  restaurants: IRestorant []=RESTORANTS;
+  restaurants: Restorant []=RESTORANTS;
   
 
 }
