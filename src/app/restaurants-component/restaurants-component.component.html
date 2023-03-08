@@ -1,0 +1,13 @@
+<h3>Grid List of Cards</h3>
+<mat-grid-list cols="2" rowHeight="50px">
+  <mat-grid-tile *ngFor="let restaurant of restaurants">
+    <mat-card class="my-card">
+      <mat-card-title>{{restaurant.name}}</mat-card-title>
+      <mat-card-subtitle>{{restaurant.city}}</mat-card-subtitle>
+    
+      <img mat-card-image [src]='restaurant.imageUrl' alt="{{restaurant.name}}">
+      <p {{restaurant.address}}></p>
+      <p {{restaurant.webSiteUrl}}></p>
+    </mat-card> 
+  </mat-grid-tile>
+</mat-grid-list> 

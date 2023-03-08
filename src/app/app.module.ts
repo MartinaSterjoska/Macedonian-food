@@ -9,6 +9,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CityComponentComponent } from './city-component/city-component.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 
@@ -24,7 +25,8 @@ import { MatListModule } from '@angular/material/list';
     BrowserModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

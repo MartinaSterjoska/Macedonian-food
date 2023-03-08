@@ -95,64 +95,64 @@ export const RESTORANTS: IRestorant[] = [
         name:"Vizijana",
         city:"Kumanovo",
         webSiteUrl:"/",
-        imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
-        address:"Kej Makedonija 91 A, Ohrid 6000"
+        imageUrl:"https://fastly.4sqi.net/img/general/600x600/23424446_vFIrY271P2hlIwj_V2ZVD7n0Z9_cBHthHZF1Y6i4fow.jpg",
+        address:"4VJ7+RVM, Vojnik"
     },
     {
         name: "Restoran Esnaf",
         city:"Shtip",
         webSiteUrl:"/",
-        imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
-        address:"Kej Makedonija 91 A, Ohrid 6000"
+        imageUrl:"https://img.restaurantguru.com/r00a-Restoran-Bulevar-pizza.jpg",
+        address:"Bul.Goce Delcev br.34, Shtip 2000"
     },
    {
         name:"Gostilnica Cuna",
         city:"Shtip",
         webSiteUrl:"/",
-        imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
-        address:"Kej Makedonija 91 A, Ohrid 6000"
+        imageUrl:"https://img.restaurantguru.com/c1ae-Restaurant-Gostilnica-CUNA-design.jpg",
+        address:"Еврејска 15, Shtip 2000"
    },
     {
         name:"Vodenica Kaj Jove",
         city:"Shtip",
         webSiteUrl:"/",
-        imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
-        address:"Kej Makedonija 91 A, Ohrid 6000"
+        imageUrl:"https://vodenicata.emenu.mk/img/restoran/restoran.jpg",
+        address:"Bregalnicka 1, Komuna e Shtipit 2000 MK, Shtip 2000"
     },
     {
         name:"Gostilnica Kaj Spiro",
         city:"Kratovo",
         webSiteUrl:"/",
-        imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
-        address:"Kej Makedonija 91 A, Ohrid 6000"
+        imageUrl:"https://kajak.mk/static/eb4a6dbd-3514-402f-cf62-c69df680cc4a.jpg",
+        address:"Saint George of Kratovo 3, Kratovo 1360"
     },
     {
         name:"Kratovski Merak",
         city:"Kratovo",
         webSiteUrl:"/",
-        imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
-        address:"Kej Makedonija 91 A, Ohrid 6000"
+        imageUrl:"https://img.restaurantguru.com/r259-Gostilnica-Kratovski-Merak-interior.jpg",
+        address:"3-ta Makedonska Udarna Brigada 7, Kratovo"
     },
     {
         name:"Kuklica Etno Restoran",
         city:"Kratovo",
         webSiteUrl:"/",
-        imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
-        address:"Kej Makedonija 91 A, Ohrid 6000"
+        imageUrl:"https://fastly.4sqi.net/img/general/600x600/69605932_dm4AujfjY1WVa_qBf1ETrJel13FQ8-Q8D4Aj_GKenfw.jpg",
+        address:"Kratovo S MK, Kuklitsa 1360"
     },
     {
         name:"Restoran MRS",
         city:"Berovo",
-        webSiteUrl:"/",
-        imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
-        address:"Kej Makedonija 91 A, Ohrid 6000"
+        webSiteUrl:"https://restoranmrs.com/",
+        imageUrl:"https://visitmacedonia.eu/wp-content/uploads/2019/09/MRS.jpg",
+        address:"Restaurant, Marshal Tito 130, Berovo 2330"
     },
     {
         name:"Loven dom Berovo",
         city:"Berovo",
         webSiteUrl:"/",
-        imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
-        address:"Kej Makedonija 91 A, Ohrid 6000"
+        imageUrl:"https://metatet.com/wp-content/uploads/photos/Loven-dom-Berovo_metatet-1.jpg",
+        address:"Turisticka 9, Berovo 2330"
     }
 ]
 
