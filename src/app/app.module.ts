@@ -30,8 +30,8 @@ import { RouterModule } from '@angular/router';
     RouterModule.forRoot([
       {path: 'city/:name', component: CityComponentComponent},
       {path: 'home', component: AboutComponent},
-     // {path: '', redirectTo: 'home', pathMatch: 'full'},
-      //{path: '**', redirectTo: 'home', pathMatch: 'full'}
+      {path: '', redirectTo: 'home', pathMatch: 'full'},
+      {path: '**', redirectTo: 'home', pathMatch: 'full'}
     ])
 
   ],

@@ -10,11 +10,14 @@
     </mat-list-item>
   </mat-list> -->
   
-  <mat-card *ngIf="selectedCity">
-    <img mat-card-image [src]="selectedCity.imageUrl" alt="{{selectedCity.name}}">
+  <mat-card [routerLink]="['/city',city.name]"> 
+    <img mat-card-image [src]="city.imageUrl" alt="{{city.name}}">
     <mat-card-content>
-      <h2 mat-line>{{selectedCity.name}}</h2>
-      <p mat-line>{{selectedCity.description}}</p>
+      <div>
+      <h2 mat-line>{{city.name}}</h2>
+      <p mat-line>{{city.description}}</p>
+    </div>
     </mat-card-content>
   </mat-card>
+
   

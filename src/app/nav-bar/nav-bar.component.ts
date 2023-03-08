@@ -1,4 +1,4 @@
-import { Component, OnInit, Output } from '@angular/core';
+import { Component, OnInit, Output,Input, EventEmitter } from '@angular/core';
 import { CITIES, City } from '../../Data/cities' 
 import { RESTORANTS, IRestorant } from '../../Data/restorants' 
 
@@ -12,6 +12,9 @@ export class NavBarComponent implements OnInit{
 
   cities = CITIES;
   restaurants = RESTORANTS;
+  //selectedCity: City | undefined;
+  @Input() cityInput: City = new City();
+  @Output() cityEmitter  = new EventEmitter<City>();
 
 
   constructor(){}
@@ -21,7 +24,11 @@ export class NavBarComponent implements OnInit{
   }
   
 
-  onCityClick(city: City) : void{
-    this.cities = this.cities.filter(c => c.name == city.name);
+  onCityClick(event:Event, city:City) : void{
+    //this.selectedCity = this.cities.find(c => c.name == city.name);
+    this.cityInput=city;
+    this.cityEmitter.emit(city);
   }
+
+
 }
