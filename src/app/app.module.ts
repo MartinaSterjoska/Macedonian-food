@@ -10,7 +10,7 @@ import { CityComponentComponent } from './city-component/city-component.componen
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import {MatGridListModule} from '@angular/material/grid-list';
-
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -27,6 +27,13 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatCardModule,
     MatListModule,
     MatGridListModule,
+    RouterModule.forRoot([
+      {path: 'city/:name', component: CityComponentComponent},
+      {path: 'home', component: AboutComponent},
+     // {path: '', redirectTo: 'home', pathMatch: 'full'},
+      //{path: '**', redirectTo: 'home', pathMatch: 'full'}
+    ])
+
   ],
   providers: [],
   bootstrap: [AppComponent]
