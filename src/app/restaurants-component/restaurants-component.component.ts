@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { from } from 'rxjs';
+
 import {RESTORANTS, IRestorant} from 'src/Data/restorants'
 
 @Component({
