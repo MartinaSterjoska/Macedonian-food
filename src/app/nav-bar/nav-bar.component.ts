@@ -1,6 +1,6 @@
 import { Component, OnInit, Output,Input, EventEmitter } from '@angular/core';
 import { CITIES, City } from '../../Data/cities' 
-import { RESTORANTS, IRestorant } from '../../Data/restorants' 
+import { RESTORANTS, Restorant } from '../../Data/restorants' 
 
 @Component({
   selector: 'app-nav-bar',
