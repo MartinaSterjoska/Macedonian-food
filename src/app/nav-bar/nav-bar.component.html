@@ -1,8 +1,8 @@
 <div class="nav">
-       <a mat-button color="warn" id="about">About</a>
+       <a routerLink="/home"mat-button color="warn" id="about">About</a>
        <a mat-button color="warn" id="showList">Discover by city
        <ul>
-        <li *ngFor="let city of cities">{{city.name}}</li> 
+        <li [routerLink]="['/city',city.name]" *ngFor="let city of cities">{{city.name}}</li> 
        </ul>
     </a>
 </div>
