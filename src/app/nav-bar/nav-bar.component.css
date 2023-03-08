@@ -35,3 +35,10 @@ li {
   text-decoration: underline;
 }
 
+#showList{
+  position:relative;
+  top: 9px;
+}
+/* #about{
+  position: fixed;
+} */

@@ -10,6 +10,13 @@
       <img src="../../assets/mkFood4.jpg" class="image" />
     </div>
 
+    <mat-card *ngIf="selectedCity">
+      <img mat-card-image [src]="selectedCity.imageUrl" alt="{{selectedCity.name}}">
+      <mat-card-content>
+        <h2 mat-line>{{selectedCity.name}}</h2>
+        <p mat-line>{{selectedCity.description}}</p>
+      </mat-card-content>
+    </mat-card>
     
   </main>
   
