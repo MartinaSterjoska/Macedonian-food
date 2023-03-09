@@ -10,12 +10,32 @@
     </mat-list-item>
   </mat-list> -->
   
-  <mat-card [routerLink]="['/city',city.name]"> 
+  <mat-card> 
     <img mat-card-image [src]="city.imageUrl" alt="{{city.name}}">
     <mat-card-content>
       <div>
       <h2 mat-line>{{city.name}}</h2>
       <p mat-line>{{city.description}}</p>
+      <div>
+        <h3>List of restaurants</h3>
+        <ul>
+          <li *ngFor="let rest of city.restorants">
+              <div>
+                <mat-grid-list cols="2" rowHeight="50px">
+                  <mat-grid-tile>
+                    <mat-card class="my-card">
+                      <mat-card-title>{{rest.name}}</mat-card-title>
+                      <mat-card-subtitle>{{rest.city}}</mat-card-subtitle>
+                      <img mat-card-image [src]='rest.imageUrl' alt="{{rest.name}}">
+                      <p>{{rest.address}}</p>
+                      <p>{{rest.webSiteUrl}}</p>
+                      </mat-card>
+                      </mat-grid-tile>
+                  </mat-grid-list> 
+              </div>
+          </li>
+        </ul>
+      </div>
     </div>
     </mat-card-content>
   </mat-card>

@@ -11,6 +11,7 @@
 <nav>
     <ul>
         <li> <a mat-button color="warn" routerLink="/home" color="warn"  id="home">Traditional food in </a></li>
-        <li><input type="text" id="search" placeholder="Search cities..." > <button mat-button color="warm" id="findButton">Search</button></li>
+        <li><input type="text" id="search" placeholder="Search cities..." [(ngModel)]="searchTerm">
+            <button mat-button color="warm" id="findButton" (click)="getFilteredCity">Search</button></li>
     </ul>
 </nav>

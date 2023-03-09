@@ -1,10 +1,10 @@
 import { Component, EventEmitter, Input, OnDestroy, OnInit, Output } from '@angular/core';
 import { CITIES, City } from 'src/Data/cities';
 import { NavigationEnd, Router } from '@angular/router'
-import {ActivatedRoute} from '@angular/router';
-import { filter } from 'rxjs';
-import { AstVisitor } from '@angular/compiler';
-
+import { ActivatedRoute } from '@angular/router';
+import { filter, switchMap } from 'rxjs/operators';
+import { Observable } from 'rxjs';
+import { CityService } from '../city.service';
 
 
 @Component({
@@ -12,41 +12,46 @@ import { AstVisitor } from '@angular/compiler';
   templateUrl: './city-component.component.html',
   styleUrls: ['./city-component.component.css']
 })
-export class CityComponentComponent implements OnInit{
+export class CityComponentComponent implements OnInit, OnDestroy {
 
-  @Input() city: City= new City();
+  @Input() city: City = new City();
   cities: City[] = CITIES;
-  cityName:any;
-  
-  constructor(private router: Router, private route: ActivatedRoute){
+  cityName: string | null = null;
+  private routeSubscription: any;
 
+
+  constructor(private router: Router, private route: ActivatedRoute,private cityService: CityService) { }
+
+  ngOnInit(): void {
+    this.routeSubscription = this.route.paramMap.subscribe(params => {
+      if (params.has('name')) {
+        this.cityName = params.get('name');
+        this.searchCity();
+      }
+    });
   }
 
-  
-  
-  ngOnInit(){
+    ngOnDestroy(): void {
+      if (this.routeSubscription) {
+        this.routeSubscription.unsubscribe();
+      }
+    }
 
-    // this.router.events.pipe(filter(event => event instanceof NavigationEnd)).subscribe((event: any) => {
-    //   console.log(event);
-    //   console.log(this.cityName);
-    //   this.selectedCity = this.cities.find(x => x.name === this.cityName);
-    //   this.cityName = this.route.snapshot.paramMap.get('city');
-    //   console.log(this.selectedCity.name);
-    // });
-    
+  searchCity(): void {
+    if (this.cityName) {
+      this.cityService.searchCity(this.cityName).subscribe(city => {
+        this.city = city;
+      }, error => {
+        console.error(error);
+      });
+    }
   }
 
-// onClickButton():void{
-// // this.onCityClick.emit(this.selectedCity);
-// }
-
-
-
-
-
-  // onCityClick(city: ICity) {
-  //   this.selectedCity = city;
-  // }
 }
 
+
+
+// function ngOnDestroy() {
+//   throw new Error('Function not implemented.');
+// }
 

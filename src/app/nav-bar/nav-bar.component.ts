@@ -1,4 +1,5 @@
 import { Component, OnInit, Output,Input, EventEmitter } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { CITIES, City } from '../../Data/cities' 
 import { RESTORANTS, Restorant } from '../../Data/restorants' 
 
@@ -10,6 +11,7 @@ import { RESTORANTS, Restorant } from '../../Data/restorants'
 
 export class NavBarComponent implements OnInit{
   searchTerm=""
+  
 
   cities = CITIES;
   restaurants = RESTORANTS;
@@ -18,16 +20,19 @@ export class NavBarComponent implements OnInit{
   // @Output() cityEmitter  = new EventEmitter<City>();
 
 
-  constructor(){}
+  constructor(private router: Router){}
 
   ngOnInit(): void {
   
   }
   
 
-  get getFilteredMovies(): City[] {
-    return this.cities.filter(city => city.name.toLocaleLowerCase()
+  get getFilteredCity(): City {
+     const filteredCities =  this.cities.filter(city => city.name.toLocaleLowerCase()
     .includes(this.searchTerm.toLocaleLowerCase()));
+    console.log(filteredCities[0])
+    this.router.navigate(['city',filteredCities[0].name])
+    return filteredCities[0];
   }
   // onCityClick(event:Event, city:City) : void{
     //this.selectedCity = this.cities.find(c => c.name == city.name);
