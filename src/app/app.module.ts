@@ -12,10 +12,6 @@ import { MatListModule } from '@angular/material/list';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import { RestaurantsComponentComponent } from './restaurants-component/restaurants-component.component';
-import { AllCitiesComponent } from './all-cities/all-cities.component';
 
 
 @NgModule({
@@ -35,8 +31,6 @@ import { AllCitiesComponent } from './all-cities/all-cities.component';
     MatListModule,
     MatGridListModule,
     FormsModule,
-    MatButtonModule,
-    MatIconModule,
     RouterModule.forRoot([
       {path: 'city/:name', component: CityComponentComponent},
       {path: 'cities', component: AllCitiesComponent},
