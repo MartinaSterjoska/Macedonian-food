@@ -199,79 +199,53 @@ export const CITIES: City[]=
             address:"PV44+9RJ, Cvetan Dimov, Berovo"
     
         }]
-    },
-    {
-        "name":"Sveti Nikole",
-        "description":"Sveti Nikole is a town in North Macedonia. It is the seat of Sveti Nikole Municipality and a center of a plain called Ovče Pole (Plain of sheep), famous for sheep farming, lamb meat, and dairy products of all kinds.",
-        "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Sveti_Nikole_Center%2C_Macedonia.JPG/375px-Sveti_Nikole_Center%2C_Macedonia.JPG",
-        "restorants":[{
-            name: "Restoran Cun",  
-            city:"Ohrid",
-            webSiteUrl:"https://www.restorani.com.mk/en/restoran/restoran-chun-ohrid",
-            imageUrl:"https://www.restorani.com.mk/storage/images/restaurants/galleries/1521460667530454704_gallery.jpg",
-            address:"Villa Chun, Kosta Abrash 4, Ohrid 6000"
-        }, {
-            name:"Orfej",
-            city:"Ohrid",
-            webSiteUrl:"/",
-            imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
-            address:"Kej Makedonija 91 A, Ohrid 6000"
-        },{
-            name:"Restoran Biljanini Izvori",
-            city:"Ohrid",
-            webSiteUrl:"/",
-            imageUrl:"https://www.restorani.com.mk/storage/images/restaurants/galleries/15216300501380261538_gallery.jpg",
-            address:"4R37+4VF, Р1301, Ohrid 6000"
-    
-        }]
-    },
-    {
+    },{
         "name":"Strumica",
-        "description":"Strumica is the largest city in southeastern North Macedonia, near the Novo Selo-Petrich border crossing with Bulgaria. About 55,000 people live in the region surrounding the city.",
-        "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/%D0%9F%D0%BB%D0%BE%D1%88%D1%82%D0%B0%D0%B4_%D0%93%D0%BE%D1%86%D0%B5_%D0%94%D0%B5%D0%BB%D1%87%D0%B5%D0%B2_%D0%A1%D1%82%D1%80%D1%83%D0%BC%D0%B8%D1%86%D0%B0_%282%29.jpg/375px-%D0%9F%D0%BB%D0%BE%D1%88%D1%82%D0%B0%D0%B4_%D0%93%D0%BE%D1%86%D0%B5_%D0%94%D0%B5%D0%BB%D1%87%D0%B5%D0%B2_%D0%A1%D1%82%D1%80%D1%83%D0%BC%D0%B8%D1%86%D0%B0_%282%29.jpg",
+        "description":"Strumica is the largest city in southeastern North Macedonia, near the Novo Selo-Petrich border crossing with Bulgaria. About 55,000 people live in the region surrounding the city. It is named after the Strumica River which runs through it. The city of Strumica is the seat of Strumica Municipality. he town is first mentioned in the 2nd century BC with the Greek name Αστραίον  by Ptolemy and Pliny. It was known as Tiberiopolis in Roman times, and received its present name from the Slavic settlers of the Middle Ages.",
+        "imageUrl":"https://experience-macedonia.com/wp-content/uploads/2019/05/5-10-8.jpg",
         "restorants":[{
-            name: "Restoran Cun",  
-            city:"Ohrid",
-            webSiteUrl:"https://www.restorani.com.mk/en/restoran/restoran-chun-ohrid",
-            imageUrl:"https://www.restorani.com.mk/storage/images/restaurants/galleries/1521460667530454704_gallery.jpg",
-            address:"Villa Chun, Kosta Abrash 4, Ohrid 6000"
+            name: "Shalom",  
+            city:"Strumica",
+            webSiteUrl:"https://shalom.mk/",
+            imageUrl:"https://media-cdn.tripadvisor.com/media/photo-s/18/92/7c/5d/photo7jpg.jpg",
+            address:"CJRQ+GFH, Blagoj Jankov Mucheto, Strumica 2400"
         }, {
-            name:"Orfej",
-            city:"Ohrid",
+            name:"Antika",
+            city:"Strumica",
             webSiteUrl:"/",
-            imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
-            address:"Kej Makedonija 91 A, Ohrid 6000"
+            imageUrl:"https://img.directhotels.com/mk/strumica/hotel-restoran-antika/1.jpg",
+            address:"CMR7+32M, Strumica"
         },{
-            name:"Restoran Biljanini Izvori",
-            city:"Ohrid",
+            name:"Merak - Gradska Kafana",
+            city:"Strumica",
             webSiteUrl:"/",
-            imageUrl:"https://www.restorani.com.mk/storage/images/restaurants/galleries/15216300501380261538_gallery.jpg",
-            address:"4R37+4VF, Р1301, Ohrid 6000"
+            imageUrl:"https://10619-2.s.cdn12.com/rests/original/101_516977046.jpg",
+            address:"CJQP+PJ4, Strumica"
     
         }]
     },
     {
         "name":"Bitola",
-        "description":"Bitola is a city in the southwestern part of North Macedonia. It is located in the southern part of the Pelagonia valley, surrounded by the Baba, Nidže, and Kajmakčalan mountain ranges, 14 kilometres (9 miles) north of the Medžitlija-Níki border crossing with Greece. ",
-        "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Ambientalna_ulica_Marsal_Tito-Bitola_%2810%29.jpg/405px-Ambientalna_ulica_Marsal_Tito-Bitola_%2810%29.jpg",
+        "description":"Bitola is a city in the southwestern part of North Macedonia. It is located in the southern part of the Pelagonia valley, surrounded by the Baba, Nidže, and Kajmakčalan mountain ranges, 14 kilometres (9 miles) north of the Medžitlija-Níki border crossing with Greece. The city stands at an important junction connecting the south of the Adriatic Sea region with the Aegean Sea and Central Europe, and it is an administrative, cultural, industrial, commercial, and educational centre. It has been known since the Ottoman period as the City of Consuls, since many European countries had consulates in Bitola.",
+        "imageUrl":"https://www.dinotruck.com/wp-content/uploads/2018/08/20220614_155726.jpg",
         "restorants":[{
-            name: "Restoran Cun",  
-            city:"Ohrid",
+            name: "Gradska Kafeana",  
+            city:"Bitola",
             webSiteUrl:"https://www.restorani.com.mk/en/restoran/restoran-chun-ohrid",
-            imageUrl:"https://www.restorani.com.mk/storage/images/restaurants/galleries/1521460667530454704_gallery.jpg",
-            address:"Villa Chun, Kosta Abrash 4, Ohrid 6000"
+            imageUrl:"https://10619-2.s.cdn12.com/rests/original/104_508433799.jpg",
+            address:"Marsal Tito 85, Bitola"
         }, {
-            name:"Orfej",
-            city:"Ohrid",
+            name:"Grne",
+            city:"Bitola",
             webSiteUrl:"/",
-            imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
-            address:"Kej Makedonija 91 A, Ohrid 6000"
+            imageUrl:"https://media-cdn.tripadvisor.com/media/photo-s/0d/31/85/ca/grne.jpg",
+            address:"Shirok Sokak 37, Bitola 7000"
         },{
-            name:"Restoran Biljanini Izvori",
-            city:"Ohrid",
-            webSiteUrl:"/",
-            imageUrl:"https://www.restorani.com.mk/storage/images/restaurants/galleries/15216300501380261538_gallery.jpg",
-            address:"4R37+4VF, Р1301, Ohrid 6000"
+            name:"Korzo",
+            city:"Bitola",
+            webSiteUrl:"https://hotelkorzo.com/mk/%D1%85%D0%BE%D1%82%D0%B5%D0%BB/",
+            imageUrl:"https://media-cdn.tripadvisor.com/media/photo-s/10/d1/0c/fc/korzo.jpg",
+            address:"Marx and Engels, Bitola"
     
         }]
     }
