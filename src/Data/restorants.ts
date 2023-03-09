@@ -153,7 +153,57 @@ export const RESTORANTS: Restorant[] = [
         webSiteUrl:"/",
         imageUrl:"https://metatet.com/wp-content/uploads/photos/Loven-dom-Berovo_metatet-1.jpg",
         address:"Turisticka 9, Berovo 2330"
+    },
+    {
+        name:"Dionis restaurant",
+        city:"Berovo",
+        webSiteUrl:"/",
+        imageUrl:"https://macedonian-hotels.mk/images/hotels/ohrid/villa-dionis/villa-dionis1322653512.jpg",
+        address:"PV44+9RJ, Cvetan Dimov, Berovo"
+
+    },
+    {
+        name: "Shalom",  
+        city:"Strumica",
+        webSiteUrl:"https://shalom.mk/",
+        imageUrl:"https://media-cdn.tripadvisor.com/media/photo-s/18/92/7c/5d/photo7jpg.jpg",
+        address:"CJRQ+GFH, Blagoj Jankov Mucheto, Strumica 2400"
+    },
+    {
+        name:"Antika",
+        city:"Strumica",
+        webSiteUrl:"/",
+        imageUrl:"https://img.directhotels.com/mk/strumica/hotel-restoran-antika/1.jpg",
+        address:"CMR7+32M, Strumica"
+    },
+    {
+        name:"Merak - Gradska Kafana",
+        city:"Strumica",
+        webSiteUrl:"/",
+        imageUrl:"https://10619-2.s.cdn12.com/rests/original/101_516977046.jpg",
+        address:"CJQP+PJ4, Strumica"
+
+    },{
+        name: "Gradska Kafeana",  
+        city:"Bitola",
+        webSiteUrl:"https://www.restorani.com.mk/en/restoran/restoran-chun-ohrid",
+        imageUrl:"https://10619-2.s.cdn12.com/rests/original/104_508433799.jpg",
+        address:"Marsal Tito 85, Bitola"
+    }, {
+        name:"Grne",
+        city:"Bitola",
+        webSiteUrl:"/",
+        imageUrl:"https://media-cdn.tripadvisor.com/media/photo-s/0d/31/85/ca/grne.jpg",
+        address:"Shirok Sokak 37, Bitola 7000"
+    },{
+        name:"Korzo",
+        city:"Bitola",
+        webSiteUrl:"https://hotelkorzo.com/mk/%D1%85%D0%BE%D1%82%D0%B5%D0%BB/",
+        imageUrl:"https://media-cdn.tripadvisor.com/media/photo-s/10/d1/0c/fc/korzo.jpg",
+        address:"Marx and Engels, Bitola"
+
     }
+
 ]
 
 export class Restorant {

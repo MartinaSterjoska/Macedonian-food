@@ -35,7 +35,6 @@ import { AllCitiesComponent } from './all-cities/all-cities.component';
     MatListModule,
     MatGridListModule,
     FormsModule,
-    MatButtonModule,
     MatIconModule,
     RouterModule.forRoot([
       {path: 'city/:name', component: CityComponentComponent},
