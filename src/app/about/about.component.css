@@ -131,13 +131,37 @@
 }
 #places{
   font-size: 2rem;
-  color:bisque;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
   padding: 2rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  /* background-color:darkgoldenrod; */
-  background-image: url('src/assets/ethnicPattern1.jpg');
+}
+/* main {
+  background-image: url('https://i.pinimg.com/564x/74/6f/40/746f4019efd849ed37bcd3efe622f60d--macedonia-traditional-dresses.jpg');
+  opacity: 0.8; /* set the opacity to 50% */
+ /* }  */
+/* main::before {
+  content: '';
+  background-image: url('https://i.pinimg.com/564x/74/6f/40/746f4019efd849ed37bcd3efe622f60d--macedonia-traditional-dresses.jpg');
+  opacity: 1; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+} */
+main::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://i.pinimg.com/564x/74/6f/40/746f4019efd849ed37bcd3efe622f60d--macedonia-traditional-dresses.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+  z-index: -1;
 }
