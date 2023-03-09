@@ -1,70 +1,27 @@
-<!-- <mat-list>
-    <mat-list-item *ngFor="let city of cities" (click)="onCityClick(city)">
-      <mat-card>
-        <img mat-card-image [src]="city.imageUrl" alt="{{city.name}}">
-        <mat-card-content>
-          <h2 mat-line>{{city.name}}</h2>
-          <p mat-line>{{city.description}}</p>
-        </mat-card-content>
-      </mat-card>
-    </mat-list-item>
-  </mat-list> -->
-  
-  <mat-card> 
-    
-    
+
+  <mat-card class="karta"> 
     <mat-card-content>
-      <div>
-        <div class="tekst">
-          <h2 class="naslov" mat-line>{{city.name}}</h2><br>
-          <p class="paragraf" mat-line>{{city.description}}</p>
-        </div>
+      <div class="tekst">
+        <h2 class="naslov" mat-line>{{city.name}}</h2><br>
+        <p class="paragraf" mat-line>{{city.description}}</p>
+      </div>
       <img class="slike" mat-card-image [src]="city.imageUrl" alt="{{city.name}}">
       
       <div class="restoraniLista">
+        <br>
         <h3 class="naslovRest">List of restaurants</h3>
-        <ul>
+ 
+        <ul class="listaRest">
           <li *ngFor="let rest of city.restorants">
-            <mat-card>
+            <mat-card class="restorani">            
+              <mat-card-title class="imeRest">{{rest.name}}</mat-card-title>
               
-                  <mat-card-title class="imeRest">{{rest.name}}</mat-card-title>
-                  <mat-card-subtitle class="restTekst">{{rest.city}}</mat-card-subtitle>
-                  <img mat-card-image [src]='rest.imageUrl' alt="{{rest.name}}">
-                  <p class="restTekst">{{rest.address}}</p>
+              <mat-card-subtitle class="restTekst">{{rest.city}}</mat-card-subtitle>
+              <img class="RestSlika" mat-card-image [src]='rest.imageUrl' alt="{{rest.name}}">                  <p class="restTekst">{{rest.address}}</p>
             </mat-card>
           </li>
         </ul>
-        
-        
-        <div>
-          <ul>
-            <!-- <li *ngFor="let rest of city.restorants"></li> -->
-                <!-- <div class="row">
-                  <div class="col-md-4">
-                      <p class="imeRest">{{rest.name}}</p>
-                      <p class="restTekst"> {{rest.address}}</p>
-                      <div class="RestSlika" href="#">
-                        <img mat-card-image [src]='rest.imageUrl' alt="{{rest.name}}">
-                      </div>
-                  </div> -->
-                  <!-- <mat-grid-list cols="3" rowHeight="200px">
-                    <mat-grid-tile>
-                      <mat-card class="my-card">
-                        <mat-card-title>{{rest.name}}</mat-card-title>
-                        <mat-card-subtitle>{{rest.city}}</mat-card-subtitle>
-                        <img mat-card-image [src]='rest.imageUrl' alt="{{rest.name}}">
-                        <p>{{rest.address}}</p>
-                        <p>{{rest.webSiteUrl}}</p>
-                        </mat-card>
-                        </mat-grid-tile>
-                    </mat-grid-list>  -->
-                <!-- </div>
-            </li> -->
-          </ul>
-        </div>
-        
       </div>
-    </div>
     </mat-card-content>
   </mat-card>
 
