@@ -1,28 +1,29 @@
+<div class="mainKarta">
+  <mat-card > 
+  <mat-card-content>
+    <div class="tekst">
+      <h2 class="naslov" mat-line>{{city.name}}</h2><br>
+      <p class="paragraf" mat-line>{{city.description}}</p>
+    </div>
+    <img class="slike" mat-card-image [src]="city.imageUrl" alt="{{city.name}}">
+    
+    <div class="restoraniLista">
+      <br>
+      <h3 class="naslovRest">List of restaurants</h3>
 
-  <mat-card class="karta"> 
-    <mat-card-content>
-      <div class="tekst">
-        <h2 class="naslov" mat-line>{{city.name}}</h2><br>
-        <p class="paragraf" mat-line>{{city.description}}</p>
-      </div>
-      <img class="slike" mat-card-image [src]="city.imageUrl" alt="{{city.name}}">
-      
-      <div class="restoraniLista">
-        <br>
-        <h3 class="naslovRest">List of restaurants</h3>
- 
-        <ul class="listaRest">
-          <li *ngFor="let rest of city.restorants">
-            <mat-card class="restorani">            
-              <mat-card-title class="imeRest">{{rest.name}}</mat-card-title>
-              
-              <mat-card-subtitle class="restTekst">{{rest.city}}</mat-card-subtitle>
-              <img class="RestSlika" mat-card-image [src]='rest.imageUrl' alt="{{rest.name}}">                  <p class="restTekst">{{rest.address}}</p>
-            </mat-card>
-          </li>
-        </ul>
-      </div>
-    </mat-card-content>
-  </mat-card>
-
+      <ul class="listaRest">
+        <li *ngFor="let rest of city.restorants">
+          <mat-card class="restorani">            
+            <mat-card-title class="imeRest">{{rest.name}}</mat-card-title>
+            
+            <mat-card-subtitle class="restTekst">{{rest.city}}</mat-card-subtitle>
+            <img class="RestSlika" mat-card-image [src]='rest.imageUrl' alt="{{rest.name}}">                  <p class="restTekst">{{rest.address}}</p>
+          </mat-card>
+        </li>
+      </ul>
+    </div>
+  </mat-card-content>
+</mat-card>
+</div>
+  
   

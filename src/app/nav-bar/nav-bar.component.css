@@ -4,14 +4,16 @@ li {
 
 nav{
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('src/assets/ethincPattern.jpg');
-  height: 30px;
+  background-repeat: repeat;
+  background-position: center;
+  height: 50px;
 }
 ul{
   list-style: none;
   display: flex;
   text-align: center;
   position: relative;
-  left: 250px;
+  margin: 0;
 }
 #home{
   position: relative;
@@ -20,4 +22,36 @@ ul{
   color: white;
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+  background-color: beige; /* Set the button background color to beige */
+  color: darkred; /* Set the button text color to dark red */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove the button border */
+  font-size: 16px; /* Set the font size */
+  font-family: 'Times New Roman', Times, serif; /* Set the font family */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  height: 40px; /* Set the same height for all buttons */
+  border-radius: 5px; /* Add a slightly rounded border */
+}
+
+/* Style for the button on hover */
+button:hover {
+  background-color: darkred; /* Change the background color on hover */
+  color: beige; /* Change the text color on hover */
+}
+
+/* Style for the button when it's active/pressed */
+button:active {
+  background-color: darkred; /* Change the background color when active */
+  color: beige; /* Change the text color when active */
+}
+
+#home,#search,#findButton{
+  float: left;
+}
+
+.toRight{
+  left: 400px;
 }
