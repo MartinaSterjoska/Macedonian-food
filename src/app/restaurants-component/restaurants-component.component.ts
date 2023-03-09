@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { from } from 'rxjs';
 
 import {RESTORANTS, Restorant} from 'src/Data/restorants'
+import { CityService } from '../city.service';
 
 @Component({
   selector: 'app-restaurants-component',
@@ -9,7 +10,13 @@ import {RESTORANTS, Restorant} from 'src/Data/restorants'
   styleUrls: ['./restaurants-component.component.css']
 })
 export class RestaurantsComponentComponent {
-  restaurants: Restorant []=RESTORANTS;
+
   
+  constructor(private cityService: CityService){}
+
+  listAllRestaurants():Restorant[]{
+    console.log("rest component called")
+    return this.cityService.listAllRestaurants();
+  }
 
 }

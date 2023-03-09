@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { CITIES, City } from 'src/Data/cities';
 import { Observable } from 'rxjs';
+import { RESTORANTS,Restorant } from 'src/Data/restorants';
 
 @Injectable({
   providedIn: 'root'
@@ -18,5 +19,11 @@ export class CityService {
     }) : new Observable<City>(observer => observer.error('City not found'));
   }
 
-  
+  listAllCities():City[]{
+    return CITIES;
+  }
+
+  listAllRestaurants():Restorant[]{
+    return RESTORANTS;
+  }
 }
