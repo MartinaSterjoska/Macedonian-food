@@ -1,0 +1,18 @@
+.cityCards{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 100px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}

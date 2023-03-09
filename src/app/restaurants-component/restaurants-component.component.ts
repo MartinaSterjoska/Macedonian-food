@@ -15,6 +15,7 @@ export class RestaurantsComponentComponent {
   constructor(private cityService: CityService){}
 
   listAllRestaurants():Restorant[]{
+    console.log("rest component called")
     return this.cityService.listAllRestaurants();
   }
 

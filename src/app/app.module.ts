@@ -25,7 +25,8 @@ import { AllCitiesComponent } from './all-cities/all-cities.component';
     AboutComponent,
     FooterComponentsComponent,
     CityComponentComponent,
-    AllCitiesComponent
+    AllCitiesComponent,
+    RestaurantsComponentComponent
   ],
   imports: [
     BrowserModule,

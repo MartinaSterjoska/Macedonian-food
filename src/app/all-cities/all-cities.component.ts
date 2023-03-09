@@ -13,6 +13,7 @@ export class AllCitiesComponent {
 
 
   listAllCities():City[]{
+    console.log("all cities component called")
     return this.cityService.listAllCities();
   }
 }
