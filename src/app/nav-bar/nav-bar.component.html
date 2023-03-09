@@ -9,9 +9,15 @@
     </a>
 </div> -->
 <nav>
-    <ul>
+    <ul class="search">
         <li> <a mat-button color="warn" routerLink="/home" color="warn"  id="home">Traditional food in </a></li>
         <li><input type="text" id="search" placeholder="Search cities..." [(ngModel)]="searchTerm">
             <button mat-button color="warm" id="findButton" (click)="getFilteredCity">Search</button></li>
+        <li><button routerLink="/restaurants">See all restaurants</button></li>
+        <li><button routerLink="/cities">See all cities</button></li>
+        <li><button mat-mini-fab color="warn" aria-label="Example icon button with a filter list icon" routerLink="/home">
+            <mat-icon>home</mat-icon>
+          </button>
+          </li>
     </ul>
 </nav>

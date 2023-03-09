@@ -1,47 +1,7 @@
-#showList ul li{
-  display: none;
-}
-
-#showList:hover ul li{
-  display: block;
-}
-
 li {
   margin-top: 8px;
 }
 
-#showList a.active ul li{
-  display: block;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-  background-color: beige;
-  padding: 10px;
-}
-
-.nav a {
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 12px;
-  margin: 0 10px;
-  text-decoration: none;
-  color: darkred;
-}
-
-.nav a:hover{
-  text-decoration: underline;
-}
-
-#showList{
-  position:relative;
-  top: 9px;
-}
-/* #about{
-  position: fixed;
-} */
 nav{
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('src/assets/ethincPattern.jpg');
   height: 30px;
