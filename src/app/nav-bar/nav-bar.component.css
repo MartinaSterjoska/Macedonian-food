@@ -1,5 +1,5 @@
 li {
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 nav{
@@ -15,13 +15,17 @@ ul{
   position: relative;
   margin: 0;
 }
-#home{
+#text{
   position: relative;
   bottom: 0px;
   font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 8px;
+}
+
+#text a {
   color: white;
   text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 button {
@@ -48,10 +52,23 @@ button:active {
   color: beige; /* Change the text color when active */
 }
 
-#home,#search,#findButton{
-  float: left;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  float: right;
 }
 
-.toRight{
-  left: 400px;
+#allRest{
+  margin-left: 30px;
+}
+
+#allCities{
+  margin-left: 5px;
+}
+
+#search{
+    height: 35px;
 }

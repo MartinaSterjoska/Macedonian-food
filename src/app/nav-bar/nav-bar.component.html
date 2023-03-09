@@ -10,10 +10,10 @@
 </div> -->
 <nav>
     <ul class="search">
-        <li> <a routerLink="/home" id="home">Traditional food in </a></li>
+        <li id="text"> <a routerLink="/home">Traditional food in...</a></li>
         <li><input type="text" id="search" placeholder="Search cities..." [(ngModel)]="searchTerm">
             <button id="findButton" (click)="getFilteredCity">Search</button></li>
-        <li class="toRight"><button routerLink="/restaurants">See all restaurants</button></li>
-        <li class="toRight"><button routerLink="/cities">See all cities</button></li>
+        <li id="allRest" class="toRight"><button routerLink="/restaurants">See all restaurants</button></li>
+        <li id="allCities" class="toRight"><button routerLink="/cities">See all cities</button></li>
     </ul>
 </nav>
