@@ -12,6 +12,8 @@ import { MatListModule } from '@angular/material/list';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import {MatIconModule} from '@angular/material/icon';
+
 
 
 @NgModule({
@@ -29,6 +31,7 @@ import { FormsModule } from '@angular/forms';
     MatListModule,
     MatGridListModule,
     FormsModule,
+    MatIconModule,
     RouterModule.forRoot([
       {path: 'city/:name', component: CityComponentComponent},
       {path: 'home', component: AboutComponent},
