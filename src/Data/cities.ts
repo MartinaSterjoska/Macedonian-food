@@ -3,7 +3,7 @@ export const CITIES: City[]=
 [   {
         "name":"Skopje",
         "description":"Skopje is the capital and largest city of North Macedonia. It is the country's political, cultural, economic, and academic centre.",
-        "imageUrl":"https://media.istockphoto.com/id/505059364/photo/ministry-of-foreign-affairs-and-freedom-bridge.jpg?s=1024x1024&w=is&k=20&c=PaZ4N-9Dv-BkQbdoTJfXNYmpejXBAZHXD31-2b5j3tM=",
+        "imageUrl":"https://www.chasingthedonkey.com/wp-content/uploads/2019/01/View-on-Stone-bridge-from-Oko-bridge-in-Skopje-macedonia_shutterstock_289286840.jpg",
         "restorants":[{
             name: "Restoran Cun",  
             city:"Ohrid",

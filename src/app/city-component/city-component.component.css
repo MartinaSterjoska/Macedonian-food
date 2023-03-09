@@ -1,0 +1,70 @@
+ul{
+   list-style: none;
+}
+.naslov{
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #7c2c0c;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.paragraf{
+    width: 50%;
+    float: left;
+    font-size: 16px;
+    color: #7c2c0c;
+    margin: 0px;
+    padding-top: 30px;
+    font-weight: 500;
+}
+.tekst{
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 75px;
+    /* text-align: center; */
+    max-width: 50%;
+}
+.slike{
+    max-width: 50%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+.restoraniLista{
+    position: relative;
+    top: 60px;
+}
+.restTekst{
+    width: 100%;
+    font-size: 18px;
+    color: #7c2c0c;
+    text-align: center;
+    margin: 0px;
+    font-weight: 500;
+}
+.imeRest{
+    width: 100%;
+    font-size: 18px;
+    color: #7c2c0c;
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.RestSlika{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.naslovRest{
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #7c2c0c;
+    line-height: 60px;
+}
