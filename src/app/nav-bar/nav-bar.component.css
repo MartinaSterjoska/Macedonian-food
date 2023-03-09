@@ -42,3 +42,22 @@ li {
 /* #about{
   position: fixed;
 } */
+nav{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('src/assets/ethincPattern.jpg');
+  height: 30px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  text-align: center;
+  position: relative;
+  left: 250px;
+}
+#home{
+  position: relative;
+  bottom: 0px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}

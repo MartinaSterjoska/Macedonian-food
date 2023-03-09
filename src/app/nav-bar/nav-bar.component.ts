@@ -9,12 +9,13 @@ import { RESTORANTS, Restorant } from '../../Data/restorants'
 })
 
 export class NavBarComponent implements OnInit{
+  searchTerm=""
 
   cities = CITIES;
   restaurants = RESTORANTS;
   //selectedCity: City | undefined;
-  @Input() cityInput: City = new City();
-  @Output() cityEmitter  = new EventEmitter<City>();
+  // @Input() cityInput: City = new City();
+  // @Output() cityEmitter  = new EventEmitter<City>();
 
 
   constructor(){}
@@ -24,11 +25,15 @@ export class NavBarComponent implements OnInit{
   }
   
 
-  onCityClick(event:Event, city:City) : void{
-    //this.selectedCity = this.cities.find(c => c.name == city.name);
-    this.cityInput=city;
-    this.cityEmitter.emit(city);
+  get getFilteredMovies(): City[] {
+    return this.cities.filter(city => city.name.toLocaleLowerCase()
+    .includes(this.searchTerm.toLocaleLowerCase()));
   }
+  // onCityClick(event:Event, city:City) : void{
+    //this.selectedCity = this.cities.find(c => c.name == city.name);
+  //   this.cityInput=city;
+  //   this.cityEmitter.emit(city);
+  // }
 
 
 }
