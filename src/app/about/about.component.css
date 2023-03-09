@@ -1,42 +1,89 @@
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-  }
-  
-  .text-container {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 2rem;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .text-container h1 {
-    font-size: 2rem;
-  }
-  
-  .text-container p {
-    font-size: 1.2rem;
-  }
-  
-  .image-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 2rem;
-  }
-  
-  .image-container img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
-  
-  main {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('src/assets/ethincPattern.jpg');
-    background-size: cover;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.text-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 2rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-container h1 {
+  font-size: 2rem;
+}
+
+.text-container p {
+  font-size: 1.2rem;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.food-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.food-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.food-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.food-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.food-item img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: 1rem;
+}
+
+.food-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.food-item p {
+  font-size: 1rem;
+  margin: 0;
+}
+
