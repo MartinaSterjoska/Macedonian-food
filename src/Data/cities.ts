@@ -52,7 +52,7 @@ export const CITIES: City[]=
     {
         "name":"Tetovo",
         "description":"Tetovo is a city in the northwestern part of North Macedonia, built on the foothills of Šar Mountain and divided by the Pena River. The municipality of Tetovo covers an area of 1,080 km2 (417 sq mi) at 468 meters (1,535 ft) above sea level, with a population of 52,915. The city of Tetovo is the seat of Tetovo Municipality.",
-        "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ804fl6mZyz-pjn0Nq2wUkBPrBhpMIhEekQg&usqp=CAU",
+        "imageUrl":"https://experitour.com/wp-content/uploads/2020/06/Mosqu%C3%A9e-de-Tetovo-768x559.jpg",
         "restorants":[{
             name:"Belamia",
             city:"Tetovo",
