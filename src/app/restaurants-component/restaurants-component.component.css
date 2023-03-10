@@ -20,6 +20,8 @@ li{
 }
 
 #main{
+  padding-left: 280px;
+  padding-top: 10px;
   content: '';
   top: 0;
   left: 0;
