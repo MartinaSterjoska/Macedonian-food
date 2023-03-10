@@ -136,15 +136,13 @@
   align-items: center;
 }
 
-#likeIcon {
+.likeIcon:hover {
   margin-left: 10px; /* add some spacing between the icon and other elements */
-}
-
-
-.hoverable:hover {
   color: red;
-  cursor: pointer;
+  cursor:pointer
 }
+
+
 #places{
   font-size: 2rem;
   background-color: rgba(0, 0, 0, 0.8);
