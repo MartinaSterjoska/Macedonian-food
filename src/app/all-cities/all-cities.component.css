@@ -32,4 +32,12 @@ img {
     height: 400px;
     object-fit: cover;
 }
+.grad{
+    width: 100%;
+    /* float: left; */
+    text-align: center;
+    font-size: 35px;
+    color: #7c2c0c;
+    line-height: 60px;
+}
 
