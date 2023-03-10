@@ -89,9 +89,15 @@
 }
 
 .example-card {
-  max-width: 400px;
+  width: 500px;
+  height: 300px;
   margin-bottom: 8px;
   background-color: rgb(250, 225, 205);
+}
+
+.example-card img {
+  width: 150px;
+  height: 150px;
 }
 
 /* #likeIcon{
@@ -183,5 +189,28 @@ main::before {
   z-index: -1;
 }
 
+#welcome{
+  text-align: center;
+  line-height: 60px;
+  margin: auto;
+  width: 100%;
+  height: 60px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url("src/assets/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  color: darkred;
+  position: relative;
+  overflow: hidden;
+}
 
+#welcome:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  clip: rect(20px, calc(100% - 20px), calc(100% - 20px), 20px);
+}
 
