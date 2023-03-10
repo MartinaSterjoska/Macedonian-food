@@ -89,7 +89,9 @@
 
 .example-card {
   max-width: 400px;
+  margin-top: 30px;
   margin-bottom: 8px;
+  margin-left: 120px;
 }
 
 #likeIcon{
@@ -131,14 +133,9 @@
 }
 #places{
   font-size: 2rem;
-  color:bisque;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
   padding: 2rem;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  /* background-color:darkgoldenrod; */
-  background-image: url('src/assets/ethnicPattern1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 /* main {
@@ -169,4 +166,19 @@ main::before {
   background-position: center;
   opacity: 0.8;
   z-index: -1;
+}
+
+#welcome{
+  width: 50%;
+  height: 10%;
+  margin: auto;
+  line-height: 100px;
+  background: url('src/assets/Picture1.png');
+  background-size: cover;
+  font-family:'Libre Baskerville', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: darkred;
 }
