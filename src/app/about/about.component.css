@@ -89,9 +89,7 @@
 
 .example-card {
   max-width: 400px;
-  margin-top: 30px;
   margin-bottom: 8px;
-  margin-left: 120px;
 }
 
 /* #likeIcon{
@@ -184,22 +182,5 @@ main::before {
   z-index: -1;
 }
 
-<<<<<<< HEAD
 
 
-=======
-#welcome{
-  width: 50%;
-  height: 10%;
-  margin: auto;
-  line-height: 100px;
-  background: url('src/assets/Picture1.png');
-  background-size: cover;
-  font-family:'Libre Baskerville', serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: darkred;
-}
->>>>>>> 999eb00f77de62ca0f8be2cdbc64908e45689058
