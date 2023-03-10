@@ -60,7 +60,7 @@ export const RESTORANTS: Restorant[] = [
         name:"Punto Verde",
         city:"Tetovo",
         webSiteUrl:"/",
-        imageUrl:"https://10619-2.s.cdn12.com/rests/original/306_509371697.jpg",
+        imageUrl:"http://img1.feinfood.com/upload/hotel2/20200401/8ee5c99c3d1340b1b5356a488a80e36b.jpg",
         address:"2X5G+Q9J, Dimo Gavrovski Kara, Tetovo 1220"
     },
     {
