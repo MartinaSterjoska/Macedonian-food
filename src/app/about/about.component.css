@@ -89,7 +89,9 @@
 
 .example-card {
   max-width: 400px;
+  margin-top: 30px;
   margin-bottom: 8px;
+  margin-left: 120px;
 }
 
 #likeIcon{
@@ -164,4 +166,19 @@ main::before {
   background-position: center;
   opacity: 0.8;
   z-index: -1;
+}
+
+#welcome{
+  width: 50%;
+  height: 10%;
+  margin: auto;
+  line-height: 100px;
+  background: url('src/assets/Picture1.png');
+  background-size: cover;
+  font-family:'Libre Baskerville', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: darkred;
 }

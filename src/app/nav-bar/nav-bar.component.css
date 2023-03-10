@@ -19,13 +19,14 @@ ul{
   position: relative;
   bottom: 0px;
   font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Libre Baskerville', serif;
   padding-top: 8px;
 }
 
 #text a {
-  color: white;
+  color: beige;
   text-decoration: none;
+  background-color: #520515;
 }
 
 button {
@@ -34,7 +35,7 @@ button {
   padding: 10px 20px; /* Add padding to the button */
   border: none; /* Remove the button border */
   font-size: 16px; /* Set the font size */
-  font-family: 'Times New Roman', Times, serif; /* Set the font family */
+  font-family: 'Libre Baskerville', serif; /* Set the font family */
   cursor: pointer; /* Change cursor to a pointer on hover */
   height: 40px; /* Set the same height for all buttons */
   border-radius: 5px; /* Add a slightly rounded border */
