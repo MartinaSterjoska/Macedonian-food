@@ -204,6 +204,7 @@ main::before {
   color: darkred;
   position: relative;
   overflow: hidden;
+  font-family: 'Libre Baskerville', serif;;
 }
 
 #welcome:before {
