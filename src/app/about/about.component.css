@@ -89,21 +89,20 @@
 
 .example-card {
   max-width: 400px;
-  margin-top: 30px;
   margin-bottom: 8px;
-  margin-left: 120px;
 }
 
-#likeIcon{
+/* #likeIcon{
   margin-left: 150px;
   margin-bottom: -11px;
-}
-#likeIcon2{
-  margin-left: 330px;
-  margin-bottom: 5px;
-}
+} */
+/* #likeIcon2{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+} */
 
-#likeIcon3{
+/* #likeIcon3{
   margin-left: 75px;
   margin-top: 0px;
 }
@@ -125,7 +124,22 @@
 #likeIcon7{
   margin-left: 120px;
   margin-top: 10px;
+} */
+.mat-card {
+  /* position: relative; */
+  width: 400px; /* adjust this value to your desired width */
 }
+
+.mat-card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#likeIcon {
+  margin-left: 10px; /* add some spacing between the icon and other elements */
+}
+
 
 .hoverable:hover {
   color: red;
@@ -168,17 +182,5 @@ main::before {
   z-index: -1;
 }
 
-#welcome{
-  width: 50%;
-  height: 10%;
-  margin: auto;
-  line-height: 100px;
-  background: url('src/assets/Picture1.png');
-  background-size: cover;
-  font-family:'Libre Baskerville', serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: darkred;
-}
+
+
