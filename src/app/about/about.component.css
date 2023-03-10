@@ -8,8 +8,9 @@
 }
 
 .text-container {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  background: url('src/assets/paper.png');
+  background-position: center;
+  color: darkred;
   padding: 2rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
@@ -90,6 +91,7 @@
 .example-card {
   max-width: 400px;
   margin-bottom: 8px;
+  background-color: rgb(250, 225, 205);
 }
 
 /* #likeIcon{
@@ -145,8 +147,9 @@
 
 #places{
   font-size: 2rem;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  background: url('src/assets/paper.png');
+  background-position: center;
+  color: darkred;
   padding: 2rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }

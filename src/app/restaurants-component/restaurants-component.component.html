@@ -16,7 +16,21 @@
 <div id="main">
   <ul>
       <li *ngFor="let rest of listAllRestaurants()">
-          {{rest.name}} {{rest.city}} {{rest.address}} <img mat-card-image src="{{rest.imageUrl}}">
+        <mat-card class="example-card">
+          <mat-card-header>
+            <!-- <div mat-card-avatar class="example-header-image"></div> -->
+            <!-- <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> -->
+            <img mat-card-image src="{{rest.imageUrl}}" class="slikaResto">
+            
+          </mat-card-header>
+          
+          <mat-card-content>
+            <mat-card-title class="naslovResto">{{rest.name}}</mat-card-title>
+            <mat-card-subtitle class="adresaRest">{{rest.city}}</mat-card-subtitle>
+            <p class="adresaRest">{{rest.address}} </p>
+          </mat-card-content>
+        </mat-card>
+            
       </li>
   </ul>
 </div>
