@@ -92,16 +92,17 @@
   margin-bottom: 8px;
 }
 
-#likeIcon{
+/* #likeIcon{
   margin-left: 150px;
   margin-bottom: -11px;
-}
-#likeIcon2{
-  margin-left: 330px;
-  margin-bottom: 5px;
-}
+} */
+/* #likeIcon2{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+} */
 
-#likeIcon3{
+/* #likeIcon3{
   margin-left: 75px;
   margin-top: 0px;
 }
@@ -123,7 +124,22 @@
 #likeIcon7{
   margin-left: 120px;
   margin-top: 10px;
+} */
+.mat-card {
+  /* position: relative; */
+  width: 400px; /* adjust this value to your desired width */
 }
+
+.mat-card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#likeIcon {
+  margin-left: 10px; /* add some spacing between the icon and other elements */
+}
+
 
 .hoverable:hover {
   color: red;
@@ -165,3 +181,6 @@ main::before {
   opacity: 0.8;
   z-index: -1;
 }
+
+
+
