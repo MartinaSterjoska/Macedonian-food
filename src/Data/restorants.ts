@@ -95,7 +95,7 @@ export const RESTORANTS: Restorant[] = [
         name:"Vizijana",
         city:"Kumanovo",
         webSiteUrl:"/",
-        imageUrl:"https://fastly.4sqi.net/img/general/600x600/23424446_vFIrY271P2hlIwj_V2ZVD7n0Z9_cBHthHZF1Y6i4fow.jpg",
+        imageUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ9oZUKxe45WhMirEvZIc_OuwhXmnzHv46Qw&usqp=CAU",
         address:"4VJ7+RVM, Vojnik"
     },
     {

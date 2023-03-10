@@ -69,7 +69,7 @@ export const CITIES: City[]=
             name:"Punto Verde",
             city:"Tetovo",
             webSiteUrl:"/",
-            imageUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLa1XflTozNzPE6aU4f8S3uNeY0MqpgsrxSA&usqp=CAU",
+            imageUrl:"http://img1.feinfood.com/upload/hotel2/20200401/8ee5c99c3d1340b1b5356a488a80e36b.jpg",
             address:"2X5G+Q9J, Dimo Gavrovski Kara, Tetovo 1220"
     
         }]
@@ -119,7 +119,7 @@ export const CITIES: City[]=
             name:"Vizijana",
             city:"Kumanovo",
             webSiteUrl:"/",
-            imageUrl:"https://fastly.4sqi.net/img/general/600x600/23424446_vFIrY271P2hlIwj_V2ZVD7n0Z9_cBHthHZF1Y6i4fow.jpg",
+            imageUrl:"https://www.mkmap.eu.mk/arhiva/images/viziana1/fratelis6.jpg",
             address:"4VJ7+RVM, Vojnik"
     
         }]
