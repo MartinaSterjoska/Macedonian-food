@@ -13,10 +13,10 @@
 </mat-grid-list>  -->
 <!-- <mat-grid-list></mat-grid-list> -->
 
-<div>
+<div id="main">
   <ul>
       <li *ngFor="let rest of listAllRestaurants()">
-          {{rest.name}} {{rest.city}} {{rest.webSiteUrl}}
+          {{rest.name}} {{rest.city}} {{rest.address}} <img mat-card-image src="{{rest.imageUrl}}">
       </li>
   </ul>
 </div>

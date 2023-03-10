@@ -1,5 +1,5 @@
 li {
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 nav{
@@ -15,13 +15,18 @@ ul{
   position: relative;
   margin: 0;
 }
-#home{
+#text{
   position: relative;
   bottom: 0px;
   font-size: 20px;
-  color: white;
+  font-family:'Libre Baskerville', serif;
+  padding-top: 8px;
+}
+
+#text a {
+  color: beige;
   text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
+  background-color: #520515;
 }
 
 button {
@@ -30,7 +35,7 @@ button {
   padding: 10px 20px; /* Add padding to the button */
   border: none; /* Remove the button border */
   font-size: 16px; /* Set the font size */
-  font-family: 'Times New Roman', Times, serif; /* Set the font family */
+  font-family: 'Libre Baskerville', serif; /* Set the font family */
   cursor: pointer; /* Change cursor to a pointer on hover */
   height: 40px; /* Set the same height for all buttons */
   border-radius: 5px; /* Add a slightly rounded border */
@@ -48,10 +53,27 @@ button:active {
   color: beige; /* Change the text color when active */
 }
 
-#home,#search,#findButton{
-  float: left;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  float: right;
 }
 
-.toRight{
-  left: 400px;
+#allRest{
+  margin-left: 30px;
+}
+
+#allCities{
+  margin-left: 5px;
+}
+
+#search{
+    height: 35px;
+}
+
+#homeButton{
+  margin-top: 5px;
 }

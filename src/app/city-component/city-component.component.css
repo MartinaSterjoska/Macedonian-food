@@ -103,3 +103,11 @@ li{
     opacity: 0.8;
     z-index: -1;
   }
+
+  /* .mainKarta::before{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://i.pinimg.com/564x/74/6f/40/746f4019efd849ed37bcd3efe622f60d--macedonia-traditional-dresses.jpg'); ;
+  } */
+  .mainKarta {
+    background-image: url('/src/assets/ethincPattern.jpg');
+    background-size: cover; /* to scale the image to cover the entire div */
+  }
